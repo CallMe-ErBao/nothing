@@ -1,0 +1,10 @@
+*.exe
+.idea
+github.com
+*.iml
+.DS_Store
+*.log
+/MEL
+/logs
+/pkg
+cfg.conf

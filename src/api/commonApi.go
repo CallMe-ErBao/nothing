@@ -28,7 +28,7 @@ func apiHandler(r *http.Request, w http.ResponseWriter) {
 	case "ReportEvent":
 		reportEvent(r, w)
 		break
-	case "Query":
+	case "QueryEvent":
 		queryEvent(r, w)
 		break
 	case "QueryByEventType":
